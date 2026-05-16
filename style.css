@@ -1,0 +1,55 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(
+    180deg,
+    #fffd92 0%,
+    #ffa5df 40%,
+    #da99ff 75%,
+    hsl(200, 100%, 82%) 100%
+);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+header {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 50px;
+    color: #313131;
+}
+.printer {
+    width :320px;
+}
+.printer img{
+    width: 100%;
+    height: auto;
+}
+.print-button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.print-button:hover{
+    transform:scale(1.05);
+}
